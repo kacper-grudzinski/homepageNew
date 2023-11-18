@@ -7,7 +7,7 @@ h1{
     color: purple;
 }
 
-h2{
+.title{
     color: hotpink;
 }
 
@@ -15,3 +15,18 @@ h3{
     color: rgb(255, 159, 207);
 }
 
+#pasje{
+    background: gray;
+}
+
+a{
+    color: aqua;
+}
+
+section a{
+    color: bisque;
+}
+
+.my-article p{
+    color: greenyellow;
+}
