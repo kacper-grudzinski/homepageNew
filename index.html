@@ -4,15 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-		<link href="style.css" rel="stylesheet" type="text/css">
+    <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
+    <header>
+      <nav>
+        <a href="index.html">Strona główna</a>
+        <a href="nauka-html.html">Nauka frontend</a>
+      </nav>
+    </header>
     <main>
-      <header>
+      <header id="top">
         <h1>Kacper Grudziński - strona o mnie</h1>
       </header>
       <section>
         <h2>Kim jestem?</h2>
+        <img src="Billy.jpg" alt="Zdjęcie Billy'ego Joel'a"/>
+        <p>Poczytaj o <a href="#pasje">pasjach</a>.</p>
         <p>
           Jestem studentem informatyki i ekonometrii w Szkole Głównej
           Gospodarstwa Wiejskiego w Warszawie. Od niedawna interesuję się
@@ -21,7 +29,7 @@
           nadzieję, że mi się to uda.
         </p>
       </section>
-      <section>
+      <section id="pasje">
         <h2>Jakie mam pasje?</h2>
         <article>
           <h3>Motoryzacja</h3>
@@ -39,18 +47,24 @@
           <h3>Muzyka</h3>
           <p>
             Również muzyka jest moją wielką pasją. Uwielbiam słuchać wszelakich
-            gatunków, zaczynając od lat 70 po muzyke typu trap. Nie ograniczam
-            się do jednego rodzaju, a w przyszłości chciałbym posiadać własne
-            studio, do którego zapraszałbym chłopaków z talentem, ale bez
-            możliwości na profesjonalne nagrywki. Obecnie uczę się gry na
-            keyboardzie, idzie mi całkiem dobrze, choć progress jest powolny.
+            gatunków, zaczynając od lat 70 po muzyke typu trap. Moją ulubioną
+            piosenką na ten moment jest
+            <a
+              href="https://www.youtube.com/watch?v=iM4LzEcaTK0"
+              target="_blank"
+              >New York State of Mind</a
+            >. Nie ograniczam się do jednego rodzaju, a w przyszłości chciałbym
+            posiadać własne studio, do którego zapraszałbym chłopaków z
+            talentem, ale bez możliwości na profesjonalne nagrywki. Obecnie uczę
+            się gry na keyboardzie, idzie mi całkiem dobrze, choć progres jest
+            powolny.
           </p>
         </article>
       </section>
     </main>
     <footer>
       Strona Kacpra Gurdzińskiego stworzona na potrzeby szkolenia WTF: CO TEN
-      FRONTEND.
+      FRONTEND.<a href="#top">Na górę 😉</a>
     </footer>
   </body>
 </html>
