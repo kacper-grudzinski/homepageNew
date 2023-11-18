@@ -1,32 +1,32 @@
-body{
-    background: black;
-    color: whitesmoke;
+body {
+  background: black;
+  color: whitesmoke;
 }
 
-h1{
-    color: purple;
+h1 {
+  color: purple;
 }
 
-.title{
-    color: hotpink;
+.title {
+  color: hotpink;
 }
 
-h3{
-    color: rgb(255, 159, 207);
+h3 {
+  color: rgb(255, 159, 207);
 }
 
-#pasje{
-    background: gray;
+#pasje {
+  background: gray;
 }
 
-a{
-    color: aqua;
+.my-article p {
+  color: greenyellow;
 }
 
-section a{
-    color: bisque;
+.about {
+  color: blue;
 }
 
-.my-article p{
-    color: greenyellow;
+a {
+  color: inherit;
 }
