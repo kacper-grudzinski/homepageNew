@@ -1,10 +1,30 @@
+html{
+  box-sizing: border-box;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
 body {
   background: black;
   color: whitesmoke;
 }
 
+header{
+  padding: 16px;
+}
+
+section {
+  padding: 16px;
+}
+
 h1 {
   color: purple;
+}
+
+footer{
+  padding: 16px;
 }
 
 .title {
