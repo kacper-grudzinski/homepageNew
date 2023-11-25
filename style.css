@@ -1,26 +1,44 @@
-html{
+html {
   box-sizing: border-box;
 }
 
-*, *::before, *::after{
+*,
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
 body {
   background: black;
   color: whitesmoke;
+  width: 100%;
+  max-width: 2160px;
 }
 
 section {
+  position: relative;
   padding: 16px;
+  margin: 10px;
+  border: 4px solid white;
+  border-radius: 16px;
+}
+
+img {
+  position: absolute;
+  z-index: 0;
+  top: 0px;
+  right: 0;
+  border-radius: 16px;
+  width: 100px;
 }
 
 h1 {
   color: purple;
   padding: 16px;
+  margin: 100px auto;
 }
 
-footer{
+footer {
   padding: 16px;
 }
 
@@ -45,23 +63,24 @@ a {
 }
 
 .navigation {
-background: blue;
-padding: 16px;
-margin: 8px;
-border-radius: 8px;
+  background: blue;
+  padding: 16px;
+  margin: 8px;
+  border-radius: 8px;
 }
 
 .navigation__link {
-color: blanchedalmond;
+  color: blanchedalmond;
 }
 
-.section{
+.section {
   background: green;
   margin-bottom: 16px;
 }
 
-.section__header{
+.section__header {
   color: aqua;
+  z-index: 1;
 }
 
 .section__header--special {
