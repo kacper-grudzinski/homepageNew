@@ -11,16 +11,13 @@ body {
   color: whitesmoke;
 }
 
-header{
-  padding: 16px;
-}
-
 section {
   padding: 16px;
 }
 
 h1 {
   color: purple;
+  padding: 16px;
 }
 
 footer{
@@ -35,10 +32,6 @@ h3 {
   color: rgb(255, 159, 207);
 }
 
-#pasje {
-  background: gray;
-}
-
 .my-article p {
   color: greenyellow;
 }
@@ -49,4 +42,29 @@ h3 {
 
 a {
   color: inherit;
+}
+
+.navigation {
+background: blue;
+padding: 16px;
+margin: 8px;
+border-radius: 8px;
+}
+
+.navigation__link {
+color: blanchedalmond;
+}
+
+.section{
+  background: green;
+  margin-bottom: 16px;
+}
+
+.section__header{
+  color: aqua;
+}
+
+.section__header--special {
+  color: tomato;
+  margin-left: 64px;
 }
