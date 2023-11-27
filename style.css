@@ -16,6 +16,7 @@ main {
 body {
   background: black;
   color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 
@@ -40,11 +41,21 @@ a {
   color: blanchedalmond;
 }
 
-.page-header__heading {
-  color: purple;
+.page-header{
   padding: 16px;
 }
 
+.page-header__heading {
+  color: purple;
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.special{
+  color: hsla(180, 100%, 50%, .5);
+  font-weight: 300;
+}
 
 section {
   position: relative;
@@ -60,6 +71,7 @@ section {
 
   color: white;
   border-radius: 8px;
+  line-height: 1.5;
 }
 
 .section__header {
@@ -91,6 +103,17 @@ section {
 color: rgb(211, 211, 211);
 }
 
+.my-article__list{
+  list-style-type: circle;
+}
+
+.list-container {
+  border: 2px dotted hotpink;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  padding: 1rem;
+}
 
 .footer {
   padding: 16px;
@@ -111,4 +134,13 @@ color: rgb(211, 211, 211);
   padding: 4px 6px;
   display: block;
   border-radius: 8px ;
+}
+
+table{
+  width: 100%;
+  text-align: center;
+}
+
+table caption{
+  margin-bottom: 2rem;
 }
