@@ -14,24 +14,25 @@ main {
 }
 
 body {
-  background: black;
+  background-color: #37db2d;
+  background-image: linear-gradient(225deg, #37db2d 0%, #000000 100%);
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
 }
-
 
 a {
   color: inherit;
 }
 
-.header{
+.header {
   position: sticky;
   top: 0;
   z-index: 100;
 }
 
 .navigation {
-  background: blue;
+  background: rgb(0,0,0,0.4);
+  background-size: cover;
   padding: 16px;
   margin: 8px;
   border-radius: 8px;
@@ -41,7 +42,7 @@ a {
   color: blanchedalmond;
 }
 
-.page-header{
+.page-header {
   padding: 16px;
 }
 
@@ -52,8 +53,8 @@ a {
   letter-spacing: 1px;
 }
 
-.special{
-  color: hsla(180, 100%, 50%, .5);
+.special {
+  color: hsla(180, 100%, 50%, 0.5);
   font-weight: 300;
 }
 
@@ -67,8 +68,7 @@ section {
   margin-bottom: 16px;
 }
 
-.section p{
-
+.section p {
   color: white;
   border-radius: 8px;
   line-height: 1.5;
@@ -79,12 +79,10 @@ section {
   z-index: 1;
 }
 
-
 .section__header--special {
   color: tomato;
   margin-left: 64px;
 }
-
 
 .section__image {
   position: absolute;
@@ -100,10 +98,10 @@ section {
 }
 
 .my-article p {
-color: rgb(211, 211, 211);
+  color: rgb(211, 211, 211);
 }
 
-.my-article__list{
+.my-article__list {
   list-style-type: circle;
 }
 
@@ -121,11 +119,11 @@ color: rgb(211, 211, 211);
   margin: 0 auto;
 }
 
-.footer__content{
+.footer__content {
   color: rgb(158, 158, 158);
 }
 
-.footer__top-link{
+.footer__top-link {
   position: fixed;
   bottom: 16px;
   right: 16px;
@@ -133,14 +131,14 @@ color: rgb(211, 211, 211);
   background: gray;
   padding: 4px 6px;
   display: block;
-  border-radius: 8px ;
+  border-radius: 8px;
 }
 
-table{
+table {
   width: 100%;
   text-align: center;
 }
 
-table caption{
+table caption {
   margin-bottom: 2rem;
 }
