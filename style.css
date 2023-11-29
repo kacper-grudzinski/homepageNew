@@ -36,6 +36,9 @@ a {
   padding: 16px;
   margin: 8px;
   border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
 }
 
 .navigation__link {
@@ -132,6 +135,7 @@ section {
   padding: 4px 6px;
   display: block;
   border-radius: 8px;
+  text-decoration: none;
 }
 
 table {
